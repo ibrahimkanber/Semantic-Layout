@@ -1,12 +1,15 @@
 # Development Strategy
 
-> `Team Group 3`
+> `Interstellar`
 
-write a short description of your web page:
+Write a short description of your project:
+- A simple website with information about group 3. A page where you can see the bio and group profiles of the members of the group
 
-- what is it about?
-- who would want to read it?
-- why would they want to read it?
+## Wireframe
+
+<!-- include a wireframe for your project in this repository, and display it here -->
+<!-- wireframe.cc is a good site for getting started with wireframes -->
+![wireframe](https://user-images.githubusercontent.com/53440164/82504316-5b73b580-9afb-11ea-8290-24c02a701b07.gif)
 
 ## 0. Set-Up
 
@@ -14,71 +17,101 @@ __A User can see my initial repository and live demo__
 
 ### Repo
 
-1. Created a new repository
-1. Clone the repository
-1. Copy-paste this development strategy file into a file called `development-strategy.md`
-1. Add a license
-1. Give a title to your README
-1. Fill out the rest of this file with your team's names
-1. Push the changes
-1. turn on GitHub Pages
+- [] Created a new repository generated from this template
+- [] Clone the repository
+- [] Copy-paste the markdown from this file to the empty development-strategy.md file in the new repo
+- [] Add this wireframe into your new repo
+- [] Start your README file
+- [] Push the changes
+- [] Turn on GitHub Pages
+
+## 1. User Story: title
+
+__As a site visitor, I want to know what the web page is called__
+
+### Branches
+
+1. This user story was developed on a brach called `title`
+1. It was merged to `master` when the feature was finished.
+
+### HTML
+
+- A header element with a title describing the web page
+- A pleasant footer
+
+### CSS
+
+- Layout styling for the header & footer
+- Text styling for the main title
 
 ---
 
-## 1. User Story: about your team
+## 2. User Story: introduction
 
-__As a site visitor, I want to know about your team and who is in it__
+__As a site visitor, I want to read an introduction to this web page__
 
-### Repo
+### Branches
 
-This user story was developed on a brach called `1-about-team`
+1. This user story was developed on a brach called `introduction`
+1. It was merged to `master` when the feature was finished.
 
-### README.md
+### HTML
 
-Wrote an introduction to the team and added a list with all of our names.
+- section element
+- some nice text in the section introducing users to this web page
 
----
+### CSS
 
-## 2. User Story: introducing _name_
-
-__As a site visitor, I want to learn more about *name*__
-
-### Repo
-
-This user story was developed on a brach called `2-name`
-
-### name.md
-
-Write a markdown bio page for this team member
-
-### README.md
-
-Change this team member's name on the list into a link to their new profile page
+Styling for the new element
 
 ---
 
-## 3. User Story: introducing _name_
+## 3. User Story: main text
 
-__As a site visitor, I want to learn more about *name*__
+__As a site visitor, I want to learn about something cool__
 
-### Repo
+### Branches
 
-This user story was developed on a brach called `3-name`
+1. This user story was developed on a brach called `main-text`
+1. It was merged to `master` when the feature was finished.
 
-### name.md
+### HTML
 
-Write a markdown bio page for this team member
+- article element
+- something cool that everyone needs to know
 
-### README.md
+### CSS
 
-Change this team member's name on the list into a link to their new profile page
-
----
-
-... fill out one section for each team member ...
+Styling for the new element
 
 ---
 
-## X. Finishing Touches
+## 4. User Story: references
+
+__As a site visitor, I want to know where I can learn more__
+
+### Branches
+
+1. This user story was developed on a brach called `references`
+1. It was merged to `master` when the feature was finished.
+
+### HTML
+
+- aside element
+- some links for people to learn more about the cool thing
+
+### CSS
+
+Styling for the new element
+
+---
+
+## 5. Finishing Touches
 
 __As a perfectionist, I want everything perfect :)__
+
+- Write final, complete README:
+  - [makeareadme.com](https://www.makeareadme.com/)
+  - [bulldogjob](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+  - [meakaakka](https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3)
+- Validate code to check for any last mistakes

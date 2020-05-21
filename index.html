@@ -7,12 +7,78 @@
 
   <!-- Leave this here!  It renders the review buttons  -->
   <script src='./evaluation/init.js'></script>
+  <style>
+    header {
+      text-align: center;
+      border-style: none none solid none;
+    }
+    aside {
+      width: 50%;
+      padding-left: 20px;
+      margin-left: 5px;
+      float: right;
+      box-shadow: inset 5px 0 5px -5px #29627e;
+      font-style: italic;
+
+    }
+
+    .aside-text {
+      font-family: monospace;
+    }
+    aside > ul > li > a    {
+      text-decoration: none;
+    }
+    h2 {
+      font-family: monospace;
+      font-size: 1.5em;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    footer {
+      border-style: solid none none none;
+    }
+    .footer-img {
+      width: 150px;
+      height: 200px;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 
 <body>
   <header>
-    <h1>Team Group 3</h1>
+    <h1>Interstellar (2014)</h1>
   </header>
+  <aside>
+    <h2>Cast</h2>
+      <ul>
+        <li><a href="https://www.imdb.com/name/nm0000190/?ref_=tt_cl_t2">Matthew McConaughey</a></li>
+        <li><a href="https://www.imdb.com/name/nm0000995/?ref_=tt_cl_t1">Ellen Burstyn</a></li>
+        <li><a href="https://www.imdb.com/name/nm0004266/?ref_=ttfc_fc_cl_t10">Anne Hathaway</a></li>
+        <li><a href="https://www.imdb.com/name/nm1567113/?ref_=ttfc_fc_cl_t19">Jessica Chastain</a></li>
+        <li><a href="https://www.imdb.com/name/nm0000323/?ref_=ttfc_fc_cl_t14">Michael Caine</a></li>
+        <li><a href="https://www.imdb.com/name/nm0000729/?ref_=ttfc_fc_cl_t17">Casey Affleck</a></li>
+      </ul>
+    <p class="aside-text">
+      You can learn <strong>everything</strong> a lot about this movie in <a href="https://www.imdb.com/title/tt0816692/?ref_=ttfc_fc_tt">this link</a>
+    </p>
+  </aside>
+  <section id="main section">
+    <h2>What is the movie about?</h2>
+    <p>
+      Interstellar is a 2014 epic science fiction film directed, co-written and co-produced by <a href="https://www.imdb.com/name/nm0634240/">Christopher Nolan</a>.<br>
+      <br>
+      A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.<br>
+      <br>
+      Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life.<br>
+      <br>
+      Imdb: 8.6 / Top Rated Movies #30
+    </p>
+  </section>
+  <footer>
+    <img class="footer-img" src="https://user-images.githubusercontent.com/53440164/82506206-77795600-9aff-11ea-882e-dd7724d04014.jpg" alt="interstellar poster">
+  </footer>
 </body>
 
 </html>
